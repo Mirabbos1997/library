@@ -10,9 +10,7 @@ import {
   Grid,
   Paper,
   Popper,
-  Avatar,
   List,
-  ListItemAvatar,
   ListItemText,
   ListSubheader,
   ListItemSecondaryAction,
@@ -27,10 +25,10 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import QueryBuilderTwoToneIcon from '@mui/icons-material/QueryBuilderTwoTone';
 import NotificationsNoneTwoToneIcon from '@mui/icons-material/NotificationsNoneTwoTone';
 
-import User1 from 'assets/images/users/avatar-1.jpg';
-import User2 from 'assets/images/users/avatar-2.jpg';
-import User3 from 'assets/images/users/avatar-3.jpg';
-import User4 from 'assets/images/users/avatar-4.jpg';
+// import User1 from 'assets/images/users/avatar-1.jpg';
+// import User2 from 'assets/images/users/avatar-2.jpg';
+// import User3 from 'assets/images/users/avatar-3.jpg';
+// import User4 from 'assets/images/users/avatar-4.jpg';
 
 // ==============================|| NOTIFICATION ||============================== //
 
@@ -114,9 +112,9 @@ const NotificationSection = () => {
                       <Chip size="small" color="primary" label="New" />
                     </ListSubheader>
                     <ListItemButton alignItemsFlexStart sx={{ pt: 0 }}>
-                      <ListItemAvatar>
+                      {/* <ListItemAvatar>
                         <Avatar alt="John Doe" src={User1} />
-                      </ListItemAvatar>
+                      </ListItemAvatar> */}
                       <ListItemText
                         primary={<Typography variant="subtitle1">John Doe</Typography>}
                         secondary={<Typography variant="subtitle2">New ticket Added</Typography>}
@@ -144,9 +142,9 @@ const NotificationSection = () => {
                       <Chip size="small" variant="outlined" label="EARLIER" />
                     </ListSubheader>
                     <ListItemButton alignItemsFlexStart sx={{ pt: 0 }}>
-                      <ListItemAvatar>
+                      {/* <ListItemAvatar>
                         <Avatar alt="Joseph William" src={User2} />
-                      </ListItemAvatar>
+                      </ListItemAvatar> */}
                       <ListItemText
                         primary={<Typography variant="subtitle1">Joseph William</Typography>}
                         secondary={<Typography variant="subtitle2">Purchase a new product</Typography>}
@@ -171,9 +169,9 @@ const NotificationSection = () => {
                       </ListItemSecondaryAction>
                     </ListItemButton>
                     <ListItemButton alignItemsFlexStart>
-                      <ListItemAvatar>
+                      {/* <ListItemAvatar>
                         <Avatar alt="Sara Soudein" src={User3} />
-                      </ListItemAvatar>
+                      </ListItemAvatar> */}
                       <ListItemText
                         primary={<Typography variant="subtitle1">Sara Soudein</Typography>}
                         secondary={<Typography variant="subtitle2">Currently Login</Typography>}
@@ -198,9 +196,9 @@ const NotificationSection = () => {
                       </ListItemSecondaryAction>
                     </ListItemButton>
                     <ListItemButton alignItemsFlexStart>
-                      <ListItemAvatar>
+                      {/* <ListItemAvatar>
                         <Avatar alt="Sepha Wilon" src={User4} />
-                      </ListItemAvatar>
+                      </ListItemAvatar> */}
                       <ListItemText
                         primary={<Typography variant="subtitle1">Sepha Wilon</Typography>}
                         secondary={<Typography variant="subtitle2">Purchase a new product</Typography>}
